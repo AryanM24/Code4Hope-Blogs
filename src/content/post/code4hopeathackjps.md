@@ -9,14 +9,16 @@ tags:
 pubDate: 2025-06-17
 ---
 
+![Code4Hope Workshop at HackJPS 2025](/c4hworkshophackjps.jpeg)
 
-HackJPS 2025 brought together high school students from across the region for a 2-day hybrid hackathon focused on creativity, teamwork, and building impactful tech solutions. Code4Hope was proud to take part, not just as a sponsor, but as an active presence throughout the event. From engaging directly with students to leading an interactive workshop, we focused on helping participants take their projects beyond the confines of a single event and start thinking long-term.
 
-Our sponsorship helped cover  costs that made the event possible, from the physical venue to logistics and support. But that was not all we did. Throughout the day, our team was on-site talking with students, getting to know the minds behind the projects, and offering insight wherever we could. The goal was to bring real, human support to match the technical excitement of the hackathon.
+HackJPS 2025 brought together high school students from across the region for a 2-day hybrid hackathon focused on creativity, teamwork, and building impactful tech solutions. Code4Hope was proud to take part, not just as a sponsor, but as a workshop host and mentors. From engaging directly with students to leading an interactive workshop, we focused on helping participants take their projects beyond the confines of a single event and start thinking long-term.
 
-One of the most impactful parts of our involvement was the workshop we hosted on transforming hackathon projects into viable ventures.We started with a 10-minute talk breaking down how to think about your project like a startup: how to identify a real problem, define your user, validate your solution, and craft a strong value proposition.
+Throughout the day, our team was on-site talking with students, getting to know the minds behind the projects, and offering insight wherever we could. The goal was to bring real, human support to match the technical excitement of the hackathon.
 
-The next 20 minutes were spent walking around the venue, sitting down with student teams one-on-one. We listened to their ideas, gave tailored feedback, and helped them think more critically about their work. Some teams had built working prototypes with no idea who their user was. Others had compelling concepts but didn’t know how to position them. We worked with each group to clarify their goals, spot opportunities, and push their thinking just a little further. Topics ranged from marketing strategy to monetization, from product design to long-term vision. We helped teams ask better questions to whether or not their hackathon project could be something more.
+Code4Hope's workshop on transforming hackathon projects into viable business ventures was huge success. We started with a talk breaking down how to think about your project like a startup: how to identify a real problem, define your user, validate your solution, and craft a strong value proposition.
+
+The rest of the workshop block was spent walking around the venue, sitting down with student teams one-on-one. We listened to their ideas, gave tailored feedback, and helped them think more critically about their work. Some teams had fully thought out ideas but had not thought about who their user was. Others had compelling concepts but didn’t know how to position them. We worked with each group to clarify their goals, spot opportunities, and push their thinking just a little further. Topics ranged from marketing strategy to monetization, from product design to long-term vision. We helped teams ask better questions to whether or not their hackathon project could be something more.
 
 What made the experience so rewarding was how engaged the students were. They weren’t just building for fun; they were thinking deeply about how to make their work matter. Many were surprised by how much more there was to consider beyond coding, storytelling, user needs, scalability, etc. And yet, they embraced it all with curiosity and focus. That kind of mindset is rare, and it’s exactly what we want to cultivate.
 
