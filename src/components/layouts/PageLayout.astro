@@ -47,7 +47,7 @@ const themeScript = `
     <slot name="json-ld">
       <NormalJsonLd title={fullTitle} description={description} image={image} />
     </slot>
-    <script set:html={themeScript}></script>
+    <script is:inline set:html={themeScript}></script>
   </head>
   <body class="bg-slate1">
     <div class="m-auto flex min-h-dvh max-w-180 flex-col px-6 pb-6 pt-18">
