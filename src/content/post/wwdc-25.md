@@ -3,6 +3,7 @@ title: Apple Unveils New Features at WWDC 25 Sparking Controversy
 description: Apple’s WWDC 25 conference has recently concluded, leaving both developers and customers...
 tags:
   - Tech News
+  - Artificial Intelligence
 pubDate: 2025-06-30
 ---
 

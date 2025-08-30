@@ -1,5 +1,5 @@
 ---
-title: Code4Hope  Hosts “Hack to Business” Workshop at HackJPS 2025
+title: Code4Hope Hosts “Hack to Business” Workshop at HackJPS 2025
 description: We’re proud to have sponsored HackJPS 2025 and led a hands-on workshop helping participants transform hackathon projects into real ventures.
 tags:
   - Hackathon

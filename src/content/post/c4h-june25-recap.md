@@ -1,5 +1,5 @@
 ---
-title: Code4Hope’s June Recap
+title: Code4Hope’s June '25 Recap
 description: June was a month of meaningful execution at Code4Hope. We had the chance to work directly with students at HackJPS, host the first round of our annual hackathon, and launch new platforms to share the work being done...
 tags:
   - Hackathon
