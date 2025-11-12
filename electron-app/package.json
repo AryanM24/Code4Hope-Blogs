@@ -1,0 +1,20 @@
+{
+  "name": "sign-language-overlay",
+  "version": "0.1.0",
+  "description": "Transparent overlay Electron app for sign language transcription",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electronmon .",
+    "lint": "eslint src --ext .js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.5.0"
+  },
+  "devDependencies": {
+    "electron": "^31.7.3",
+    "electronmon": "^2.0.3",
+    "eslint": "^9.14.0"
+  }
+}

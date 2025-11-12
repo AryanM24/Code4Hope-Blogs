@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign Language Overlay</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="toolbar" id="drag-region">
+        <div class="app-meta">
+          <span class="app-badge">LIVE</span>
+          <span class="app-title">Cluely Sign Assist</span>
+        </div>
+        <div class="toolbar-actions">
+          <button class="toolbar-btn" id="toggle-btn">Pause</button>
+          <button class="toolbar-btn danger" id="close-btn">×</button>
+        </div>
+      </div>
+
+      <div class="status-line" id="status">Starting recognizer…</div>
+
+      <div class="transcript-container">
+        <div class="bubble">
+          <span id="transcript">Waiting for sign input…</span>
+        </div>
+      </div>
+
+      <div class="footer">
+        <button class="pill-btn" id="copy-btn">Copy transcript</button>
+        <div class="firebase-indicator" id="firebase-indicator">
+          <span class="dot offline"></span>
+          <span class="label">Firebase offline</span>
+        </div>
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
