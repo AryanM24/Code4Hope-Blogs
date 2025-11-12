@@ -20,24 +20,6 @@ const {
 } = Astro.props;
 const fullTitle = getFullTitle(title);
 
-// remark: Temporary solution to refresh theme flicker issue
-const themeScript = `
-  function getThemeMode() {
-    const theme = localStorage.getItem('theme');
-    if (theme && (theme === 'light' || theme === 'dark')) return theme;
-
-    const presetTheme = theme === 'auto' ? theme : '${slateConfig.theme?.mode}';
-    if (presetTheme === 'auto')
-      return window.matchMedia('(prefers-color-scheme: dark)').matches
-        ? 'dark'
-        : 'light';
-
-    return presetTheme;
-  }
-  const mode = getThemeMode();
-  document.documentElement.className = mode;
-  document.documentElement.dataset.theme = mode;
-`;
 ---
 
 <!doctype html>
@@ -47,7 +29,6 @@ const themeScript = `
     <slot name="json-ld">
       <NormalJsonLd title={fullTitle} description={description} image={image} />
     </slot>
-    <script is:inline set:html={themeScript}></script>
   </head>
   <body class="bg-slate1">
     <div class="m-auto flex min-h-dvh max-w-180 flex-col px-6 pb-6 pt-18">
