@@ -1,0 +1,17 @@
+---
+import slateConfig from '~@/slate.config';
+import SocialLinks from '@/components/social-links';
+
+interface Props {
+  copyright?: string;
+}
+
+const { copyright = slateConfig.footer?.copyright } = Astro.props;
+---
+
+<footer class="mt-auto">
+  {!!slateConfig.socialLinks && <SocialLinks client:visible />}
+  <div class="mt-4 flex items-center justify-between">
+    <div class="text-slate8 text-sm">{copyright}</div>
+  </div>
+</footer>

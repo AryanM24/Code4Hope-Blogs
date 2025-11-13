@@ -1,0 +1,21 @@
+---
+import slateConfig from '~@/slate.config';
+
+interface Props {
+  avatar?: string;
+}
+
+const { avatar = slateConfig.avatar } = Astro.props;
+---
+
+<header>
+  <div class="mb-9 h-14 w-14 whitespace-nowrap text-[0px] rounded-full">
+    <img
+      class="block h-full w-full object-contain object-center rounded-full"
+      src={avatar}
+      alt={slateConfig.title}
+      draggable="false"
+    />
+    <span>{slateConfig.title}</span>
+  </div>
+</header>
