@@ -42,7 +42,7 @@ export function remarkModifiedTime() {
       if (lastModified) {
         file.data.astro.frontmatter.lastModified = lastModified;
       }
-    } catch (error) {
+    } catch {
       // If git command fails (git not installed, file not in git, etc.), 
       // just skip setting lastModified - it will fall back to pubDate
       // This prevents the build from failing

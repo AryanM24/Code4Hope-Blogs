@@ -17,7 +17,16 @@ import { remarkReadingTime } from './plugins/remark-reading-time';
 import slateConfig from './slate.config';
 
 function computedIntegrations() {
-  const result = [astroExpressiveCode(), mdx(), react(), sitemap(slateConfig.sitemap)];
+  const result = [
+    astroExpressiveCode({
+      // Explicitly configure to avoid default syntaxHighlight config
+    }), 
+    mdx({
+      syntaxHighlight: false, // Disable MDX syntax highlighting
+    }), 
+    react(), 
+    sitemap(slateConfig.sitemap)
+  ];
 
   return result;
 }
@@ -27,6 +36,7 @@ function generateAstroConfigure() {
     site: slateConfig.site,
     integrations: computedIntegrations(),
     markdown: {
+      syntaxHighlight: 'shiki', // Use shiki to match astroExpressiveCode's default
       remarkPlugins: [
         remarkGemoji,
         remarkMath,

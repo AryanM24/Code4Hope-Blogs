@@ -46,6 +46,11 @@ const pubDate = dayjs(post.data.pubDate);
 const formattedPubDate = pubDate.isSame(dayjs(), 'year')
   ? pubDate.format('MMM DD')
   : pubDate.format('MMM DD, YYYY');
+
+// Ensure we always have a valid Date for lastModified
+const lastModifiedDateValue: Date = lastModifiedDate.isValid() 
+  ? lastModifiedDate.toDate() 
+  : (post.data.pubDate || new Date());
 ---
 
 <PageLayout title={post.data.title} description={post.data.description}>
@@ -54,7 +59,7 @@ const formattedPubDate = pubDate.isSame(dayjs(), 'year')
     title={getFullTitle(post.data.title)}
     description={post.data.description}
     pubDate={post.data.pubDate}
-    lastModified={lastModifiedDate.isValid() ? lastModifiedDate.toDate() : post.data.pubDate}
+    lastModified={lastModifiedDateValue}
   />
   <CodeGroupEvent client:only="react" />
   <AffixTitle title={post.data.title} offsetTop={100} client:idle />
